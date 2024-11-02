@@ -54,7 +54,10 @@ export ZONE=$(gcloud compute project-info describe \
 echo "${CYAN}${BOLD}Click here: "${RESET}""${BLUE}${BOLD}""https://console.cloud.google.com/compute/instancesEdit/zones/$ZONE/instances/cls-vm?project=$DEVSHELL_PROJECT_ID"""${RESET}"
 ```
 
-* **Reserve Static External IP** address name **static-ip**
+* **Reserve Static External IP** address name :
+```
+static-ip
+```
 
 ### Run again the following Commands in CloudShell
 
