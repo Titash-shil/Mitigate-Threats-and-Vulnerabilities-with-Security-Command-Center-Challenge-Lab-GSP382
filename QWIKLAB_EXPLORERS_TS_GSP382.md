@@ -74,7 +74,7 @@ gsutil mb -p $DEVSHELL_PROJECT_ID -c STANDARD -l $REGION -b on gs://scc-export-b
 
 gsutil uniformbucketlevelaccess set off gs://scc-export-bucket-$DEVSHELL_PROJECT_ID
 
-curl -LO raw.githubusercontent.com/Titash-shil/Mitigate-Threats-and-Vulnerabilities-with-Security-Command-Center-Challenge-Lab-GSP382/refs/heads/main/QWIKLAB_EXPLORERS_GSP382_findings.jsonl
+curl -LO https://raw.githubusercontent.com/Titash-shil/Mitigate-Threats-and-Vulnerabilities-with-Security-Command-Center-Challenge-Lab-GSP382/refs/heads/main/findings.jsonl
 
 gsutil cp findings.jsonl gs://scc-export-bucket-$DEVSHELL_PROJECT_ID
 
